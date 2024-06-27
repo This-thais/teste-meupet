@@ -2,11 +2,11 @@
   "version": 2,
   "builds": [
     {
-      "src": "src/index.js",
+      "src": "data/destinos.json",
       "use": "@vercel/node"
     }
   ],
   "routes": [
-    { "src": "/", "dest": "/src/index.js" }
+    { "src": "/", "dest": "data/destinos.json" }
   ]
 }
